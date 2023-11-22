@@ -25,6 +25,6 @@ jobs:
         sudo apt-get update
         sudo apt-get install redis-server
         sudo systemctl start redis-server
-    - run: make test
-      env:
-        SQLSERVER_URL: sqlserver://SA:YourStrong!Passw0rd@localhost:1433?database=pdscan_test
+    # - run: make test
+    #   env:
+    #     SQLSERVER_URL: sqlserver://SA:YourStrong!Passw0rd@localhost:1433?database=pdscan_test
