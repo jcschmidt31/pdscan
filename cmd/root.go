@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ankane/pdscan/internal"
+	"github.com/jcschmidt31/pdscan/internal"
 	"github.com/spf13/cobra"
 )
 

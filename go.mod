@@ -1,4 +1,4 @@
-module github.com/ankane/pdscan
+module github.com/jcschmidt31/pdscan
 
 go 1.20
 

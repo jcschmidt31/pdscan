@@ -28,8 +28,8 @@ archives:
     format: zip
 dockers:
   - image_templates:
-      - ankane/pdscan:latest
-      - ankane/pdscan:{{ .Tag }}
+      - jcschmidt31/pdscan:latest
+      - jcschmidt31/pdscan:{{ .Tag }}
     build_flag_templates:
       - --platform=linux/amd64
     extra_files:
